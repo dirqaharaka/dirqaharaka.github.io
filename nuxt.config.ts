@@ -3,9 +3,6 @@ import { defineNuxtConfig } from "nuxt/config";
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   app: {
-    publicPath: process.env.NODE_ENV === 'production'
-    ? '/portfolio/' // note the trailing slash
-    : '/',
     baseURL: '/portfolio/', // baseURL: '/<repository>/'
     buildAssetsDir: 'assets',
     head: {

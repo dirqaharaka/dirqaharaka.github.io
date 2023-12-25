@@ -34,7 +34,7 @@ export function useConstants() {
 
   const skillWithLogo = [
     {
-      imgUrl: "/logos/html5-original.svg",
+      imgUrl: "url('/logos/html5-original.svg')",
       name: "HTML",
       alt: "HTML logo",
       width: 150,
