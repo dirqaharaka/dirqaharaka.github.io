@@ -27,25 +27,25 @@
 const jsonLd = {
   "@context": "https://schema.org/",
   "@type": "WebSite",
-  name: "Web developer portfolio | Front End Developer - Po Yi Zhi",
+  name: "Web developer portfolio",
   author: {
     "@type": "Person",
     "@id": "#poyizhi",
   },
-  url: "https://www.eazypau.com/",
+  url: "https://www.dirqaharaka.com/",
   description:
-    "Personal Portfolio Website. I'm a Front-End Web Developer based in Kuala Lumpur, Malaysia. Currently focused on developing website using Vue and React. Checkout my projects and github repositories",
+    "Personal Portfolio Website. I'm a Web Developer based in Indonesia. Currently focused on developing website using Vue and React. Checkout my projects and github repositories",
   keywords:
-    "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer, Software Developer, Software Engineer, Po Yi Zhi, Yi Zhi, Po YZ, YZ Po, eazypau, Malaysia",
-  image: "https://www.eazypau.com/profile-pics/profile.webp",
+    "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer",
+  image: "https://www.dirqaharaka.com/profile-pics/profile.webp",
 };
 const personJson = {
   "@context": "https://schema.org/",
   "@type": "Person",
-  "@id": "#poyizhi",
-  name: "Po Yi Zhi",
-  email: "poyizhi@gmail.com",
-  url: "https://www.eazypau.com/",
+  "@id": "#dirqaharaka",
+  name: "Dirqa Haraka",
+  email: "dirqaharaka@gmail.com",
+  url: "https://www.dirqaharaka.com/",
 };
 useHead({
   script: [

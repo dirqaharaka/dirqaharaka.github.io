@@ -55,7 +55,7 @@ export function useConstants() {
       height: 150,
     },
     {
-      imgUrl: "/portfolio/logos/vuejs-original.svg",
+      imgUrl: "/logos/vuejs-original.svg",
       name: "Vue",
       alt: "Vue logo",
       width: 150,
