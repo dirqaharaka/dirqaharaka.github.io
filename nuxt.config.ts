@@ -3,8 +3,8 @@ import { defineNuxtConfig } from "nuxt/config";
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   app: {
-    baseURL: '/portfolio/', // baseURL: '/<repository>/'
-    buildAssetsDir: 'assets',
+    // baseURL: '/portfolio/', // baseURL: '/<repository>/'
+    // buildAssetsDir: 'assets',
     head: {
       htmlAttrs: {
         lang: "en",

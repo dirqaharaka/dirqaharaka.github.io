@@ -1,3 +1,4 @@
+
 export function useConstants() {
   const navigation = [
     {
@@ -34,14 +35,14 @@ export function useConstants() {
 
   const skillWithLogo = [
     {
-      imgUrl: "`/logos/html5-original.svg`",
+      imgUrl: "/logos/html5-original.svg",
       name: "HTML",
       alt: "HTML logo",
       width: 150,
       height: 150,
     },
     {
-      imgUrl: "'/logos/css3-plain-wordmark.svg'",
+      imgUrl: "/logos/css3-plain-wordmark.svg",
       name: "CSS",
       alt: "CSS logo",
       width: 150,
@@ -62,7 +63,7 @@ export function useConstants() {
       height: 150,
     },
     {
-      imgUrl: "~/logos/nuxtjs-original.svg",
+      imgUrl: "/logos/nuxtjs-original.svg",
       name: "Nuxt",
       alt: "Nuxt logo",
       width: 150,
