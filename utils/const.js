@@ -13,17 +13,17 @@ export function useConstants() {
     {
       id: 6,
       name: "Timeline",
-      href: "/timeline",
+      href: "/#timeline",
     },
     {
       id: 3,
       name: "Works",
-      href: "/works",
+      href: "/#works",
     },
     {
       id: 4,
       name: "Projects",
-      href: "/projects",
+      href: "/#projects",
     },
     {
       id: 5,
