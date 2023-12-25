@@ -55,7 +55,7 @@ export function useConstants() {
       height: 150,
     },
     {
-      imgUrl: "/logos/vuejs-original.svg",
+      imgUrl: "/logos/shopify-b&w.png",
       name: "Vue",
       alt: "Vue logo",
       width: 150,
