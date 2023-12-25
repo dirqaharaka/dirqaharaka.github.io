@@ -41,7 +41,7 @@ export function useConstants() {
       height: 150,
     },
     {
-      imgUrl: "/logos/css3-plain-wordmark.svg",
+      imgUrl: "`/logos/css3-plain-wordmark.svg`",
       name: "CSS",
       alt: "CSS logo",
       width: 150,
