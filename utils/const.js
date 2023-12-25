@@ -3,12 +3,12 @@ export function useConstants() {
     {
       id: 1,
       name: "About",
-      href: "/about",
+      href: "/#about",
     },
     {
       id: 2,
       name: "Skills",
-      href: "/skills",
+      href: "/#skills",
     },
     {
       id: 6,
