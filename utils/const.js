@@ -76,14 +76,14 @@ export function useConstants() {
       height: 150,
     },
     {
-      imgUrl: "/logos/nextjs-original.svg",
+      imgUrl: "/nextjs-original.svg",
       name: "Next",
       alt: "Next logo",
       width: 150,
       height: 150,
     },
     {
-      imgUrl: "/logos/tailwindcss-plain.svg",
+      imgUrl: "/tailwindcss-plain.svg",
       name: "TailwindCSS",
       alt: "TailwindCSS logo",
       width: 150,
@@ -104,7 +104,7 @@ export function useConstants() {
     //   height: 150,
     // },
     {
-      imgUrl: "/logos/nodejs-original.svg",
+      imgUrl: "/nodejs-original.svg",
       name: "NodeJS",
       alt: "NodeJS logo",
       width: 150,
