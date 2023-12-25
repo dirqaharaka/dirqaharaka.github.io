@@ -13,17 +13,17 @@ export function useConstants() {
     {
       id: 6,
       name: "Timeline",
-      href: "/#timeline",
+      href: "/timeline",
     },
     {
       id: 3,
       name: "Works",
-      href: "/#works",
+      href: "/works",
     },
     {
       id: 4,
       name: "Projects",
-      href: "/#projects",
+      href: "/projects",
     },
     {
       id: 5,
@@ -34,7 +34,7 @@ export function useConstants() {
 
   const skillWithLogo = [
     {
-      imgUrl: "url('/logos/html5-original.svg')",
+      imgUrl: "/logos/html5-original.svg",
       name: "HTML",
       alt: "HTML logo",
       width: 150,
