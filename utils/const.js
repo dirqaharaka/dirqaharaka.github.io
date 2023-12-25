@@ -48,7 +48,7 @@ export function useConstants() {
       height: 150,
     },
     {
-      imgUrl: "/logos/javascript-original.svg",
+      imgUrl: "/public/logos/javascript-original.svg",
       name: "JavaScript",
       alt: "JavaScript logo",
       width: 150,
