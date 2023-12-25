@@ -1,15 +1,17 @@
 {
   "private": true,
-  "name": "eazypau-porfolio",
+  "name": "drxiiiq-porfolio",
   "author": {
-    "name": "Po Yi Zhi",
-    "url": "https://eazypau.com/"
+    "name": "Dirqa Haraka",
+    "url": "https://drxiiiq.com/"
   },
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
+    "generate": "nuxi generate",
     "start": "node .output/server/index.mjs",
-    "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .gitignore ."
+    "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .gitignore .",
+    "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.8.0",
@@ -18,6 +20,7 @@
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-vue": "^9.17.0",
+    "gh-pages": "^6.1.1",
     "nuxt": "^3.7.3",
     "prettier": "^3.0.3",
     "sass": "^1.67.0",
