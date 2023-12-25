@@ -11,7 +11,7 @@
     "generate": "nuxi generate",
     "start": "node .output/server/index.mjs",
     "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .gitignore .",
-    "deploy": "gh-pages --dotfiles -d .output/public"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.8.0",
