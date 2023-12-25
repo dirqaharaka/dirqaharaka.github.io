@@ -3,7 +3,7 @@ import { defineNuxtConfig } from "nuxt/config";
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   app: {
-    baseURL: 'https://dirqaharaka.github.io/portfolio', // baseURL: '/<repository>/'
+    baseURL: '/portfolio/', // baseURL: '/<repository>/'
     buildAssetsDir: 'assets',
     head: {
       htmlAttrs: {
