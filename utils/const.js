@@ -49,14 +49,14 @@ export function useConstants() {
       height: 150,
     },
     {
-      imgUrl: "/public/logos/javascript-original.svg",
+      imgUrl: "/logos/javascript-original.svg",
       name: "JavaScript",
       alt: "JavaScript logo",
       width: 150,
       height: 150,
     },
     {
-      imgUrl: "/logos/shopify-b&w.png",
+      imgUrl: "/logos/vuejs-original.svg",
       name: "Vue",
       alt: "Vue logo",
       width: 150,
@@ -77,14 +77,14 @@ export function useConstants() {
       height: 150,
     },
     {
-      imgUrl: "/nextjs-original.svg",
+      imgUrl: "/logos/nextjs-original.svg",
       name: "Next",
       alt: "Next logo",
       width: 150,
       height: 150,
     },
     {
-      imgUrl: "/tailwindcss-plain.svg",
+      imgUrl: "/logos/tailwindcss-plain.svg",
       name: "TailwindCSS",
       alt: "TailwindCSS logo",
       width: 150,
@@ -105,7 +105,7 @@ export function useConstants() {
     //   height: 150,
     // },
     {
-      imgUrl: "/nodejs-original.svg",
+      imgUrl: "/logos/nodejs-original.svg",
       name: "NodeJS",
       alt: "NodeJS logo",
       width: 150,
