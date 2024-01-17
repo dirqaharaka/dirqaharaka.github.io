@@ -18,7 +18,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Personal Portfolio Website. I'm a Front-End Web Developer based in Kuala Lumpur, Malaysia. Currently focused on developing website using Vue and React. Checkout my projects and github repositories",
+            "Personal Portfolio Website. I'm a Front-End Web Developer based in Indonesia. Currently focused on developing website using Vue and React. Checkout my projects and github repositories",
         },
         { name: "format-detection", content: "telephone=no" },
         { property: "author", content: "Dirqa Haraka" },
@@ -53,14 +53,15 @@ export default defineNuxtConfig({
         // google site verification
         {
           name: "google-site-verification",
-          content: "CpKqeACrIS7JLwdilAnMgoDicJnoBaNmupPoq6fUtFs",
+          content: "",
         },
       ],
       link: [{ rel: "icon", href: "/logo-drxiiiq.png" }],
       script: [
         {
           async: "",
-          src: "https://www.googletagmanager.com/gtag/js?id=G-98SHRX2R23",
+          //google analytic code
+          src: "",
         },
         {
           type: "text/javascript",

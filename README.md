@@ -52,3 +52,7 @@ $ npm run start
 ## Remarks
 
 - Please remove my Google Analytic Script before using this project.
+
+
+
+npm run deploy
