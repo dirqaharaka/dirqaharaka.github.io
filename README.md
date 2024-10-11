@@ -55,5 +55,8 @@ $ npm run start
 
 clone
 npm install
-npm run build
+npm run build (salah gausah) 
+npm run  generate
 npm run deploy
+
+sumber : https://github.com/lucpotage/nuxt-github-pages
