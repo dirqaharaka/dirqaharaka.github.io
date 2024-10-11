@@ -87,8 +87,8 @@
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
 import { Bars3Icon, MoonIcon, SunIcon } from "@heroicons/vue/24/outline";
 import { gsap } from "gsap";
-import blackWhiteFavicon from "/drxiiiq-bw.png";
-import whiteBlackFavicon from "/drxiiiq-wb.png";
+import blackWhiteFavicon from "/drxiiiq-tp.png";
+import whiteBlackFavicon from "/drxiiiq-tp.png";
 
 useHead({
   script: [
