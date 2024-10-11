@@ -11,10 +11,7 @@ export default defineNuxtConfig({
       },
       title: "Dirqa Haraka Putra Nursadih",
       meta: [
-        {
-          name: "google-adsense-account",
-          content:"ca-pub-7920376998728565"
-        },
+       
         {
           name: "viewport",
           content: "width=device-width, initial-scale=1, viewport-fit=cover",
@@ -30,6 +27,10 @@ export default defineNuxtConfig({
           name: "keywords",
           content:
             "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer, Software Developer, Software Engineer, Dirqa Haraka,  Dirqa, cyber, drxiiiq, Indonesia",
+        },
+        {
+          name: "google-adsense-account",
+          content:"ca-pub-7920376998728565"
         },
         // social meta tags
         {
@@ -72,15 +73,16 @@ export default defineNuxtConfig({
           src: "js/useGtag.js",
           body: true,
         },
+        {
+          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7920376998728565",
+          async: true,
+          crossorigin:"anonymous"
+        }
       ],
     },
   },
   modules:
-  ["@nuxtjs/tailwindcss",
-    ['@nuxtjs/google-adsense', {
-      id: 'ca-pub-7920376998728565' 
-    }]
-  ],
+  ["@nuxtjs/tailwindcss"],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.scss",
   },
