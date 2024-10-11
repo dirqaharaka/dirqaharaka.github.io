@@ -75,10 +75,16 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules:
+  ["@nuxtjs/tailwindcss",
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-7920376998728565' 
+    }]
+  ],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.scss",
   },
+  
   build: {
     transpile: ["gsap", "@headlessui/vue", "@heroicons/vue"],
   },
