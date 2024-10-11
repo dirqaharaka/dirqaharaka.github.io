@@ -53,6 +53,7 @@ $ npm run start
 
 - Please remove my Google Analytic Script before using this project.
 
-
-
+clone
+npm install
+npm run build
 npm run deploy
