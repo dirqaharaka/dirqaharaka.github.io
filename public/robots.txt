@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /mailto:poyizhi@gmail.com
-Disallow: /resume/my-resume.pdf
+Disallow: /mailto:drxiiiq@gmail.com
 
-Sitemap: http://www.eazypau.com/sitemap.xml
+
+Sitemap: https://dirqaharaka.github.io/sitemap.xml
