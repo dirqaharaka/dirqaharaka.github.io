@@ -12,6 +12,10 @@ export default defineNuxtConfig({
       title: "Dirqa Haraka Putra Nursadih",
       meta: [
         {
+          name: "google-adsense-account",
+          content:"ca-pub-7920376998728565"
+        },
+        {
           name: "viewport",
           content: "width=device-width, initial-scale=1, viewport-fit=cover",
         },
@@ -34,7 +38,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:site",
-          content: "https://www.dirqaharaka.com/",
+          content: "https://dirqaharaka.github.io/",
         },
         {
           property: "og:title",

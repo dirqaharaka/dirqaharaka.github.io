@@ -30,14 +30,14 @@ const jsonLd = {
   name: "Web developer portfolio",
   author: {
     "@type": "Person",
-    "@id": "#poyizhi",
+    "@id": "#drxiiiq",
   },
-  url: "https://www.dirqaharaka.com/",
+  url: "https://dirqaharaka.github.io",
   description:
     "Personal Portfolio Website. I'm a Web Developer based in Indonesia. Currently focused on developing website using Vue and React. Checkout my projects and github repositories",
   keywords:
     "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer",
-  image: "https://www.dirqaharaka.com/profile-pics/profile.webp",
+  image: "https://dirqaharaka.github.io/profile-pics/profile.webp",
 };
 const personJson = {
   "@context": "https://schema.org/",
@@ -45,7 +45,7 @@ const personJson = {
   "@id": "#dirqaharaka",
   name: "Dirqa Haraka",
   email: "dirqaharaka@gmail.com",
-  url: "https://www.dirqaharaka.com/",
+  url: "https://dirqaharaka.github.io",
 };
 useHead({
   script: [
