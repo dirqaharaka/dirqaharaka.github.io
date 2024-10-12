@@ -12,24 +12,29 @@ export function useConstants() {
       href: "/#skills",
     },
     {
-      id: 6,
-      name: "Timeline",
-      href: "/#timeline",
-    },
-    {
       id: 3,
-      name: "Works",
-      href: "/#works",
+      name: "Timeline",
+      href: "/timeline",
     },
     {
       id: 4,
-      name: "Projects",
-      href: "/#projects",
+      name: "Works",
+      href: "/works",
     },
     {
       id: 5,
-      name: "Contact",
-      href: "/#contact",
+      name: "Contacts",
+      href: "/contacts",
+    },
+    {
+      id: 6,
+      name: "Projects",
+      href: "/projects",
+    },
+    {
+      id: 7,
+      name: "Blogs",
+      href: "/blogs",
     },
   ];
 
