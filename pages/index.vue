@@ -16,6 +16,7 @@
       /> -->
       <!-- <div id="projects"></div>
       <ProjectSection :projects="projects" /> -->
+      <CertificateSection :certificate="certificate" />
       <HobbySection :hobbies="hobbies" />
       <!-- <div class="bg-white dark:bg-[#121212]">
         <Contact id="contact" />
@@ -64,7 +65,7 @@ definePageMeta({
 });
 
 //const
-const { hobbies, skillWithLogo, projects, workingProjects, timeline, skills } =
+const { hobbies, skillWithLogo, projects, workingProjects, timeline, skills, certificate } =
   useConstants();
 
 // modal functionality

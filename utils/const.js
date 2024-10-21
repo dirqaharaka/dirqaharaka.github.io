@@ -181,6 +181,53 @@ export function useConstants() {
     },
 
   ];
+  const certificate = [
+    {
+      classBg: "bg-tryhackme1",
+    },
+    {
+      classBg: "bg-tryhackme2",
+    },
+    {
+      classBg: "bg-tryhackme3",
+    },
+    {
+      classBg: "bg-tryhackme4",
+    },
+    {
+      classBg: "bg-arcx",
+    },
+    {
+      classBg: "bg-certiprof",
+    },
+    {
+      classBg: "bg-dicoding1",
+    },
+    {
+      classBg: "bg-dicoding2",
+    },
+    {
+      classBg: "bg-dicoding3",
+    },
+    {
+      classBg: "bg-dicoding4",
+    },
+    {
+      classBg: "bg-dicoding5",
+    },
+    {
+      classBg: "bg-dicoding6",
+    },
+    {
+      classBg: "bg-sololearn1",
+    },
+    {
+      classBg: "bg-sololearn2",
+    },
+    {
+      classBg: "bg-sololearn3",
+    }
+  ];
   const hobbies = [
     {
       title: "Eat Ice Cream",
@@ -197,16 +244,16 @@ export function useConstants() {
       text: "To explore and expand my skillsets.",
       classBg: "bg-programming",
     },
-    // {
-    //   title: "Blog Writing",
-    //   text: "To pen down my thoughts",
-    //   classBg: "bg-blog",
-    // },
-    // {
-    //   title: "Grocery Shopping",
-    //   text: "Buy some of my favourite snacks",
-    //   classBg: "bg-grocer",
-    // },
+    {
+      title: "Blog Writing",
+      text: "To pen down my thoughts",
+      classBg: "bg-blog",
+    },
+    {
+      title: "Coding",
+      text: "Writing a code",
+      classBg: "bg-grocer",
+    },
     {
       title: "Hacking and Doing CTF ",
       text: "Palatform : TryHackMe, HackTheBox, PicoCTF ",
@@ -636,5 +683,6 @@ export function useConstants() {
     projects,
     workingProjects,
     timeline,
+    certificate
   };
 }

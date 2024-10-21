@@ -328,6 +328,35 @@ section#hobbies {
   }
 }
 
+// certificate section
+section#certificate {
+  @apply flex flex-col items-center px-4 py-16 md:py-24;
+
+  h2 {
+    @apply mb-10 md:mb-16;
+  }
+
+  .certificate-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-10 xl:gap-12 ; 
+  }
+}
+
+.certificate-card-container {
+  @apply bg-cover bg-top w-80 h-56  md:w-80 lg:w-96 xl:w-[550px] xl:h-[400px] rounded-md overflow-hidden shadow-md dark:shadow-none dark:hover:shadow-around dark:shadow-white hover:shadow-2xl hover:ring hover:ring-zinc-200 transition ease-linear duration-300;
+
+  // div {
+  //   @apply py-3 xl:pt-4 px-4 xl:px-5 bg-gradient-to-b from-black to-transparent;
+
+  //   p {
+  //     @include sub-font-family;
+  //     @apply text-sm xl:text-lg  text-white whitespace-pre-line;
+  //   }
+  //   p:first-child {
+  //     @apply font-semibold xl:font-bold underline capitalize;
+  //   }
+  // }
+}
+
 // contact section
 section.contact-section {
   height: auto;
