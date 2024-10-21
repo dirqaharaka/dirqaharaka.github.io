@@ -58,4 +58,5 @@ onMounted(() => {
 .skillStyle:hover {
   transform: translateY(-0.5rem) !important;
 }
+
 </style>
