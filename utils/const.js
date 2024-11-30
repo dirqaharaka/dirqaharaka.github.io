@@ -676,6 +676,13 @@ export function useConstants() {
     },
   ];
 
+  const hero = [
+    {
+      title: 'All Blogs',
+      description: 'Here you will find all the blog posts I have written & published on this site.'
+    }
+  ];
+
   return {
     navigation,
     hobbies,
@@ -683,6 +690,7 @@ export function useConstants() {
     projects,
     workingProjects,
     timeline,
-    certificate
+    certificate,
+    hero
   };
 }

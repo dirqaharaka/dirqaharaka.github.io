@@ -82,11 +82,16 @@ export default defineNuxtConfig({
     },
   },
   modules:
-  ["@nuxtjs/tailwindcss"],
+      ["@nuxtjs/tailwindcss", "@nuxt/content", "@nuxt/image"],
+
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.scss",
   },
+  content: {
+    dir: 'content', // Lokasi folder content
+  },
   
+
   build: {
     transpile: ["gsap", "@headlessui/vue", "@heroicons/vue"],
   },
