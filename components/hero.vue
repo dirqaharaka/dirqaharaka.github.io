@@ -25,6 +25,5 @@
 
 //const
 const { hero } = useConstants();
-console.log(hero)
 
 </script>
