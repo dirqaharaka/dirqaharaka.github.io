@@ -96,12 +96,12 @@ export default defineNuxtConfig({
     dir: 'content', // Lokasi folder content
   },
   
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: ['/', '/rss.xml'],
-    },
-  },
+  // nitro: {
+  //   prerender: {
+  //     crawlLinks: true,
+  //     routes: ['/', '/rss.xml'],
+  //   },
+  // },
 
   build: {
     transpile: ["gsap", "@headlessui/vue", "@heroicons/vue"],

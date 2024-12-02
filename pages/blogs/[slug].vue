@@ -22,6 +22,9 @@ const route = useRoute();
 
 // Gunakan queryContent untuk mendapatkan konten berdasarkan slug
 const { data: blog } = await queryContent('blogs')
-  .where({ slug: route.params.slug })
+  .where({ slug: route.params.blog })
   .findOne();
+
+
+  console.log(route.params)
 </script>

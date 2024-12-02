@@ -1,6 +1,6 @@
 <template>
     <article class="group border dark:border-gray-800 m-2 overflow-hidden rounded-2xl shadow-sm text-zinc-700 dark:text-zinc-300 max-w-4xl mx-auto">
-      <NuxtLink :to="`/blogs/${blog.slug}`" class="flex">
+      <NuxtLink :to="`${blog._path}`" class="flex">
         <!-- Gambar di sebelah kiri -->
         <NuxtImg
           class="w-1/3 h-auto object-cover object-center rounded-l-2xl shadow-lg group-hover:scale-[1.02] transition-all duration-500"

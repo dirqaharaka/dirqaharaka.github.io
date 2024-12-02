@@ -15,6 +15,8 @@ const { data: blogs } = await useAsyncData('blogs', () =>
     .sort({ date: -1 })
     .find()
 );
+
+console.log(blogs);
 </script>
 
 <style scoped>
