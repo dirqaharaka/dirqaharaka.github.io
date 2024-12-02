@@ -2,6 +2,7 @@ import { defineNuxtConfig } from "nuxt/config";
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  ssr: true,
   app: {
     // baseURL: '/portfolio/', // baseURL: '/<repository>/'
     // buildAssetsDir: 'assets',
@@ -81,8 +82,12 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules:
-      ["@nuxtjs/tailwindcss", "@nuxt/content", "@nuxt/image"],
+  modules:[
+    "@nuxtjs/tailwindcss",
+    "@nuxt/content",
+    "@nuxt/image",
+   
+  ],
 
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.scss",
@@ -91,6 +96,12 @@ export default defineNuxtConfig({
     dir: 'content', // Lokasi folder content
   },
   
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', '/rss.xml'],
+    },
+  },
 
   build: {
     transpile: ["gsap", "@headlessui/vue", "@heroicons/vue"],
