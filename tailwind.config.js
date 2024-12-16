@@ -1,12 +1,14 @@
 module.exports = {
   darkMode: ["class", '[data-theme="dark"]'],
   content: [
-    "./components/**/*.{vue,js}",
+    "./components/**/*.{vue,js,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./app.vue",
     "./plugins/**/*.{js,ts}",
+    './content/**/*.{md,yml,json,json5,csv}',
   ],
+  plugins: [require('@tailwindcss/typography')],
   theme: {
     extend: {
       backgroundImage: {

@@ -37,8 +37,8 @@ const data = computed<BlogPost>(() => {
 <template>
   <NuxtLayout name="default">
 
-  <!-- <div class=" container  mx-auto "> -->
-    <!-- <div class="col-span-12 lg:col-span-9"> -->
+  <div class=" container  mx-auto ">
+    <div class="col-span-12 lg:col-span-9">
       <BlogHeader
         :title="data.title"
         :image="data.image"
@@ -47,6 +47,7 @@ const data = computed<BlogPost>(() => {
         :description="data.description"
         :tags="data.tags"
       />
+      
       <div
         class="prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg prose-h1:no-underline max-w-5xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg"
       >
@@ -56,9 +57,14 @@ const data = computed<BlogPost>(() => {
           </template>
         </ContentRenderer> 
       </div>
-    <!-- </div> -->
+      <BlogToc />
+    </div>
+
+    
+    </div>
+    
+
   </NuxtLayout>
 
-    <BlogToc />
     
 </template>

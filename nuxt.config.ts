@@ -3,6 +3,7 @@ import { defineNuxtConfig } from "nuxt/config";
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   ssr: true,
+
   app: {
     // baseURL: '/portfolio/', // baseURL: '/<repository>/'
     // buildAssetsDir: 'assets',
@@ -82,6 +83,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   modules:[
     "@nuxtjs/tailwindcss",
     "@nuxt/content",
@@ -92,10 +94,14 @@ export default defineNuxtConfig({
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.scss",
   },
+
   content: {
+    highlight: {
+      theme: 'dracula',
+    },
     dir: 'content', // Lokasi folder content
   },
-  
+
   // nitro: {
   //   prerender: {
   //     crawlLinks: true,
@@ -103,7 +109,11 @@ export default defineNuxtConfig({
   //   },
   // },
 
+  
+
   build: {
     transpile: ["gsap", "@headlessui/vue", "@heroicons/vue"],
   },
+
+  compatibilityDate: "2024-12-16",
 });
