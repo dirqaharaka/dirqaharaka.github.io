@@ -20,7 +20,7 @@ withDefaults(defineProps<Props>(), {
 
 <template>
     
-  <div class="headerz max-w-4xl mx-auto my-8 p-4 space-y-6">
+  <div class="max-w-4xl mx-auto my-8 p-4 space-y-6">
     <!-- Title -->
     <h1 class="text-2xl md:text-4xl font-bold text-center text-gray-800 dark:text-zinc-300">
       {{ title || '' }}
