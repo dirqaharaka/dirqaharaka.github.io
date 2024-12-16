@@ -18,7 +18,7 @@ export default defineComponent({
       default: () => {},
     },
     bgColor: {
-      type: String,
+      type: ,
       default: "bg-white",
     },
     onClickFunction: {

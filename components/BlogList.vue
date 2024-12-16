@@ -1,6 +1,6 @@
 <template>
   <div class="blog-list">
-    <BlogCard v-for="blog in blogs" :key="blog.slug" :blog="blog" />
+    <BlogCard v-for="blog in blogs" :key="blog.blog" :blog="blog" />
   </div>
 </template>
 
