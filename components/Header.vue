@@ -3,32 +3,32 @@
     <div>
       <!-- previously set width 1600 height 1200 -->
       <img
-        src="/wide-laptop-gradient-bg.webp"
+        src="/setuphd.webp"
         sizes="(max-width: 768px) 50vw, (max-width: 1024px) 80vw, (max-width: 1439px) 100vw"
         srcset="
-          /wide-laptop-gradient-bg-min.webp  768w,
-          /wide-laptop-gradient-bg.webp     1024w
+          /setuphd-min.webp  768w,
+          /setuphd.webp     1024w
         "
         alt="laptop with black background"
       />
     </div>
-    <div>
+    <div class="header-content">
       <h1>
         <MyTransition>
-          <span v-if="!loading" class="flex justify-center">
+          <span v-if="!loading" class="flex justify-center items-center text-white text-3xl font-bold pt-12">
             Hi there
             <span>
               <IconsHiIcon class="ml-3 p-1" />
             </span>
           </span>
         </MyTransition>
-        <MyTransition :delay="Number(1.1)">
-          <span v-if="!loading" class="mt-1 tracking-wide text-white">
+        <MyTransition :delay="Number(1.5)">
+          <span v-if="!loading" class="mt-2 tracking-wide text-white">
             My name is Dirqa
           </span>
         </MyTransition>
-        <MyTransition :delay="Number(1.3)">
-          <span v-if="!loading" class="mt-2 tracking-wide text-white">
+        <MyTransition :delay="Number(2.0)">
+          <span v-if="!loading" class="mt-12 tracking-wide text-white">
           I'm a Cyber Security Enthusiast
           </span>
         </MyTransition>
@@ -51,5 +51,9 @@ onMounted(() => {
 <style lang="scss" scoped>
 .headerHeight {
   height: calc(100vh - 30px);
+}
+
+.header-content {
+  padding-top: clamp(12rem, 45vh, 26rem);
 }
 </style>
