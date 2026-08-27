@@ -27,10 +27,9 @@ withDefaults(defineProps<Props>(), {
     </h1>
 
     <!-- Image -->
-    <NuxtImg
+    <img
       :src="image || ''"
       :alt="alt || ''"
-      width="600"
       class="block mx-auto rounded-2xl shadow-lg h-48 md:h-72 w-full object-cover"
     />
 

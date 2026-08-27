@@ -66,11 +66,6 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", href: "/logo-drxiiiq.png" }],
       script: [
         {
-          async: "",
-          //google analytic code
-          src: "",
-        },
-        {
           type: "text/javascript",
           src: "js/useGtag.js",
           body: true,
